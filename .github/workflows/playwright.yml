@@ -9,6 +9,8 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
+    - name: Where am I
+      run: pwd
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
       with:
