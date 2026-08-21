@@ -9,8 +9,8 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
-    - name: GITHUB.WORKSPACE
-    - run: echo "${{ github.workspace }}"
+    - name: GITHUB WORKSPACE
+      run: echo "${{ github.workspace }}"
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
       with:
