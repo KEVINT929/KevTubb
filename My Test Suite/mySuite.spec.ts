@@ -45,7 +45,7 @@ test.describe('Testing the-internet.herokuapp.com', () => {
 
     });
 
-    test.use({storageState: 'user.json'});
+    // test.use({storageState: 'user.json'});
 
     test('Testing an API', async ({request}) => {
         // Test health check GET
